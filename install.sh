@@ -97,6 +97,7 @@ curl  https://get.acme.sh | sh
 cd /usr/local/
 rm -rf v2ray.fun
 git clone https://github.com/catding/v2ray.fun-3
+mv v2ray.fun-3 v2ray.fun
 cd v2ray.fun
 [[ "${installWay}" == "0" ]] && mv -f ~/mydomain .
 
